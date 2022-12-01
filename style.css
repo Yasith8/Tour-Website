@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("finland\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 10px 6%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 35px
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    padding: 0 50px;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.item a:hover {
+    border-bottom: 3px solid white;
+    transition: 0.1s all ease-out;
+}
+
+.book-btn {
+    padding: 8px 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.book-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 10%;
+    color: #fff;
+    max-width: 620px;
+}
+
+.Title {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.bar-btn {
+    color: white;
+    padding: 15px 40px;
+    background: lightseagreen;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+}
+
+.bar input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.image-1 {
+    margin-right: 30px;
+}
+
+.image-1 img {
+    width: 500px;
+    height: 600px;
+    float: right;
+    border-radius: 50px;
+}
+
+.detail {
+    margin-left: 60px;
+}
+
+.detail h1 {
+    padding-bottom: 30px;
+    font-size: 100px;
+}
+
+.detail h3 {
+    padding-bottom: 50px;
+}
+
+.detail p {
+    margin-bottom: 25px;
+    width: 75%;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.detail-btn {
+    padding: 10px 30px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+}
+
+.detail-btn:hover {
+    color: white;
+    background-color: black;
+}
