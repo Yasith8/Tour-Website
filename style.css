@@ -6,6 +6,8 @@
     scroll-behavior: smooth;
 }
 
+/*Main Secction*/
+
 .container {
     width: 100%;
     min-height: 100vh;
@@ -71,6 +73,8 @@ nav {
     cursor: pointer;
 }
 
+/*Title Secction*/
+
 .content {
     margin-top: 10%;
     color: #fff;
@@ -109,6 +113,8 @@ nav {
     font-size: 16px;
     padding-left: 10px;
 }
+
+/*About Secction*/
 
 .about {
     height: 100vh;
